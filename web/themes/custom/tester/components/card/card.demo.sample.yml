@@ -1,0 +1,5 @@
+name: Static card demo
+description: This static card is just for demo purposesddev
+status: stable
+group: Content
+props: { }
