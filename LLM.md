@@ -4,7 +4,7 @@ This Drupal project is aimed to provide a clean stable environment to work on th
 
 ## Project structure
 
-This environment runs on top of DDev.
+This environment runs on top of DDev. Any drush or composer commands need to run like `ddev drush ...` or `ddev composer ...`
 
 ## Coding standards
 
@@ -27,4 +27,4 @@ Some other helpful resources:
 
 * Notes at https://www.drupal.org/docs/develop/theming-drupal/using-single-directory-components/frequently-asked-questions
 * API notes: https://www.drupal.org/docs/develop/theming-drupal/using-single-directory-components/api-for-single-directory-components
-* The SDC Styleguide module can be found at `web/custom/sdc_styleguide`
+* The SDC Styleguide module can be found at `web/custom/sdc_styleguide`. If not found, you need to ask user to clone it in that folder. The repo is at https://git.drupalcode.org/project/sdc_styleguide
