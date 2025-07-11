@@ -1,0 +1,20 @@
+uuid: 21fa2328-0115-4fa4-a4c3-b5a1dbac824b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - tester
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: tester_primary_admin_actions
+theme: tester
+region: header
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }
