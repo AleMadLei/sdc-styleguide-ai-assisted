@@ -1,0 +1,31 @@
+uuid: 8ef6bf1b-e251-465e-9117-580796ac5dce
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.background
+    - field.field.media.remote_video.field_media_oembed_video
+    - media.type.remote_video
+  module:
+    - media
+id: media.remote_video.background
+targetEntityType: media
+bundle: remote_video
+mode: background
+content:
+  field_media_oembed_video:
+    type: oembed
+    label: visually_hidden
+    settings:
+      max_width: 0
+      max_height: 0
+      loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

@@ -8,6 +8,7 @@ dependencies:
     - comment
     - contact
     - filter
+    - media
     - sdc_styleguide
     - search
     - system
@@ -24,3 +25,4 @@ permissions:
   - 'search content'
   - 'use sdc explorer'
   - 'use text format restricted_html'
+  - 'view media'
