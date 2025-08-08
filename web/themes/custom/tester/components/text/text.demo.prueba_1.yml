@@ -1,0 +1,6 @@
+name: 'Prueba 1'
+description: 'Prueba básica de texto'
+props:
+  title: 'Este es el titulazo'
+  content: 'Este es el contenido que quiero mostrar'
+slots: {  }

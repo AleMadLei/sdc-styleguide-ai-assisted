@@ -1,0 +1,43 @@
+$schema: https://git.drupalcode.org/project/drupal/-/raw/HEAD/core/modules/sdc/src/metadata.schema.json
+name: Accordion
+description: A collection of accordion items that can be expanded and collapsed
+status: experimental
+group: Layout
+libraryOverrides:
+  dependencies:
+    - core/drupal
+props:
+  type: object
+  properties:
+    variant:
+      type: string
+      title: Variant
+      description: The accordion variant style
+      enum:
+        - "default"
+        - "bordered"
+      default: "default"
+      examples:
+        - "bordered"
+    multiselectable:
+      type: boolean
+      title: Multiselectable
+      description: Whether multiple accordion items can be open at the same time
+      default: false
+    heading_level:
+      type: string
+      title: Heading Level
+      description: The HTML heading level for accordion items
+      enum:
+        - "h2"
+        - "h3" 
+        - "h4"
+        - "h5"
+        - "h6"
+      default: "h4"
+      examples:
+        - "h3"
+slots:
+  items:
+    title: Accordion Items
+    description: The accordion items that make up this accordion

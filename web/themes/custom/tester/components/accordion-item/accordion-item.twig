@@ -1,0 +1,29 @@
+{#
+/**
+ * @file
+ * Template for accordion item component.
+ *
+ * Available variables:
+ * - label: The heading text for the accordion item
+ * - is_expanded: Whether the accordion item is expanded by default
+ * - item_id: Unique identifier for the accordion item
+ * - content: Slot for the accordion item content
+ */
+#}
+<h4 class="usa-accordion__heading">
+  <button 
+    type="button" 
+    class="usa-accordion__button"
+    aria-expanded="{{ is_expanded ? 'true' : 'false' }}"
+    aria-controls="{{ item_id }}"
+  >
+    {{ label }}
+  </button>
+</h4>
+<div 
+  id="{{ item_id }}" 
+  class="usa-accordion__content usa-prose"
+  {% if not is_expanded %}hidden{% endif %}
+>
+  {% block content %}{% endblock %}
+</div>

@@ -1,0 +1,7 @@
+name: 'A demo I did with the client'
+description: 'Just some crazy things'
+props:
+  title: 1.2421124124214E+21
+  description: 'かしこまりました。こちらが拙作の俳句でございます。  静かな夜 Shizukana yoru A quiet night  蛍光る川 Hotaru hikaru kawa Fireflies over the river  夢運ぶ Yume hakobu '
+  url: 'https://www.google.com'
+  button_label: 'This is a label'

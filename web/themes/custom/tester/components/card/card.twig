@@ -1,7 +1,19 @@
-<div class="border p-8">
-  <div>
-    <img src="https://fastly.picsum.photos/id/60/400/200.jpg?hmac=HgRuPHdPqDk3eItFy2ySW9k47WexberGpvk3H_JmLdE" width="400" height="200" />
+<div class="border p-8 rounded-lg bg-white">
+  <div class="mb-4">
+    <img src="https://fastly.picsum.photos/id/60/400/200.jpg?hmac=HgRuPHdPqDk3eItFy2ySW9k47WexberGpvk3H_JmLdE" width="400" height="200" class="rounded-lg w-full h-auto" />
   </div>
-  <h2 class="color-red-600 font-bold text-3xl">Card title</h2>
-  <p>Some text...<br /> Some text...<br /> Some text...<br /> Some text...<br /> Some text...<br /> Some text...<br /></p>
+  {% if title %}
+    <h2 class="text-3xl font-bold mb-3">{{ title }}</h2>
+  {% endif %}
+  {% if description %}
+    <p class="text-gray-600 mb-4">{{ description }}</p>
+  {% endif %}
+  {% if url and button_label %}
+    <a href="{{ url }}" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+      {{ button_label }}
+      <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+      </svg>
+    </a>
+  {% endif %}
 </div>

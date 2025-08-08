@@ -1,0 +1,35 @@
+$schema: https://git.drupalcode.org/project/drupal/-/raw/HEAD/core/modules/sdc/src/metadata.schema.json
+name: Accordion Item
+description: A single accordion item with heading and collapsible content
+status: experimental
+group: Layout
+libraryOverrides:
+  dependencies:
+    - core/drupal
+props:
+  type: object
+  properties:
+    label:
+      type: string
+      title: Label
+      description: The heading text for the accordion item
+      examples:
+        - "Frequently Asked Questions"
+    is_expanded:
+      type: boolean
+      title: Expanded
+      description: Whether the accordion item is expanded by default
+      default: false
+    item_id:
+      type: string
+      title: Item ID
+      description: Unique identifier for the accordion item (used for accessibility)
+      examples:
+        - "accordion-item-1"
+  required:
+    - label
+    - item_id
+slots:
+  content:
+    title: Content
+    description: The content inside the accordion item

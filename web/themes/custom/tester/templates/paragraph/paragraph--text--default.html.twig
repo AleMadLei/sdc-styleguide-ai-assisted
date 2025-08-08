@@ -1,0 +1,8 @@
+{% extends 'paragraph.html.twig' %}
+{% block content %}
+  {% include 'tester:text' with {
+    title: content.field_title,
+    content: content.field_content,
+  } only %}
+  {{ content|without('field_title', 'field_content') }}
+{% endblock %}

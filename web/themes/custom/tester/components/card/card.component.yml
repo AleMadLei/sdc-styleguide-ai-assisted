@@ -3,4 +3,33 @@ name: Card
 description: A simple card.
 status: stable
 group: Content
-props: { }
+props:
+  type: object
+  properties:
+    title:
+      type: string
+      title: Title
+      description: The card title
+      examples:
+        - "Card Title"
+    description:
+      type: string
+      title: Description
+      description: The card description text
+      examples:
+        - "This is a sample description for the card component."
+    url:
+      type: string
+      title: URL
+      description: The link URL for the card button
+      examples:
+        - "https://example.com"
+        - "/node/123"
+    button_label:
+      type: string
+      title: Button Label
+      description: The text displayed on the button
+      examples:
+        - "Read More"
+        - "Learn More"
+        - "View Details"

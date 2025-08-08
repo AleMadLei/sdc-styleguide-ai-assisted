@@ -1,5 +1,9 @@
 name: Static card demo
-description: This static card is just for demo purposesddev
+description: This static card is just for demo purposes
 status: stable
 group: Content
-props: { }
+props:
+  title: "Amazing Card Title"
+  description: "This is an example description for the card component. It demonstrates how the card looks with real content and provides a preview of the component in action."
+  url: "https://example.com"
+  button_label: "Learn More"

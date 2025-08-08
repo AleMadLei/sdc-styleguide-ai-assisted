@@ -1,0 +1,19 @@
+'$schema': 'https://git.drupalcode.org/project/drupal/-/raw/10.1.x/core/modules/sdc/src/metadata.schema.json'
+name: Text
+status: stable
+description: To display text
+props:
+  type: object
+  properties:
+    title:
+      type: string
+      title: Title
+      description: El titulo del texto
+      # @todo Add examples here.
+      examples: []
+    content:
+      type: string
+      title: Content
+      description: The text content
+      # @todo Add examples here.
+      examples: []
