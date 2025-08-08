@@ -1,0 +1,7 @@
+sample_master_control.control:
+  path: '/control-test'
+  defaults:
+    _title: 'Control'
+    _form: 'Drupal\sample_master_control\Form\ControlForm'
+  requirements:
+    _permission: 'access content'

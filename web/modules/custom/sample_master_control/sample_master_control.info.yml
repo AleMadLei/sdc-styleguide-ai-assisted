@@ -1,0 +1,5 @@
+name: 'Sample Master Control'
+type: module
+description: 'Exmaple'
+package: Custom
+core_version_requirement: ^10 || ^11

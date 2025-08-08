@@ -38,8 +38,10 @@
         "drupal/gin": "^5.0",
         "drupal/gin_toolbar": "^3.0",
         "drupal/mercury_editor": "^2.2",
+        "drupal/nomarkup": "^1.0",
         "drupal/project_browser": "@beta",
         "drupal/recipe_installer_kit": "^1-alpha6@alpha",
+        "drupal/style_options_media": "^1.0",
         "drupal/webform": "@beta",
         "drush/drush": "^13"
     },
