@@ -1,0 +1,5 @@
+name: 'Shareable Single Directory Components'
+type: module
+description: 'Extends SDC functionality to support components in a global /components directory with "components:" namespace.'
+core_version_requirement: ^11
+package: 'SDC'
