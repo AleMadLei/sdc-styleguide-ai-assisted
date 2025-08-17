@@ -1,5 +1,41 @@
 {% extends 'paragraph.html.twig' %}
 {% block content %}
+
+  {# Test template to verify global components work #}
+  <div class="test-global-components">
+    <h1>Testing Global Components</h1>
+
+    <h2>Sample Button Component</h2>
+    {% include 'components:button' with {
+      title: 'Yeah 1!',
+    } %}
+    {% include 'components:button_grid' with {
+      title: 'Yeah 1!',
+    } %}
+
+    {% include 'components:card_root' with {
+      title: 'Yeah 1!',
+    } %}
+    {% include 'components:card_contrib_1' with {
+      title: 'Yeah 2!',
+    } %}
+    {% include 'components:card_contrib_2' with {
+      title: 'Yeah 3!',
+    } %}
+    {% include 'components:card_custom_1' with {
+      title: 'Yeah 4!',
+    } %}
+    {% include 'components:card_custom_2' with {
+      title: 'Yeah 5!',
+    } %}
+
+
+  </div>
+
+
+
+
+
   {% include 'tester:text' with {
     title: content.field_title,
     content: content.field_content,
