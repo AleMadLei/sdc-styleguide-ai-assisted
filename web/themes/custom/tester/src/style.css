@@ -1,4 +1,4 @@
 @import 'tailwindcss';
 @source '../components/**/*.twig';
 @source '../templates/**/*.twig';
-@source '../../../../components/**/*.twig';
+@source '../../../../components/contrib/**/**/*.twig';
