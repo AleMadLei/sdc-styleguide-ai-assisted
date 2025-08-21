@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AleMadLei/sample-card.git",
-                "reference": "7fd141d5305f40d840d81a21670b78a9819050ca"
+                "reference": "d922fe034ce7f639f0fe413f25742dd0bc7f1275"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AleMadLei/sample-card/zipball/7fd141d5305f40d840d81a21670b78a9819050ca",
-                "reference": "7fd141d5305f40d840d81a21670b78a9819050ca",
+                "url": "https://api.github.com/repos/AleMadLei/sample-card/zipball/d922fe034ce7f639f0fe413f25742dd0bc7f1275",
+                "reference": "d922fe034ce7f639f0fe413f25742dd0bc7f1275",
                 "shasum": ""
             },
             "default-branch": true,
@@ -41,7 +41,7 @@
                 "source": "https://github.com/AleMadLei/sample-card/tree/main",
                 "issues": "https://github.com/AleMadLei/sample-card/issues"
             },
-            "time": "2025-08-21T22:51:34+00:00"
+            "time": "2025-08-21T23:29:42+00:00"
         },
         {
             "name": "asm89/stack-cors",
