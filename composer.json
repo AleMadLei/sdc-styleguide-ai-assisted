@@ -13,9 +13,14 @@
         "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        "alemadlei/sample-card": {
+            "type": "vcs",
+            "url": "https://github.com/AleMadLei/sample-card"
         }
     },
     "require": {
+        "alemadlei/sample-card": "dev-main",
         "composer/installers": "^2.3",
         "drupal/core": "@rc",
         "drupal/core-composer-scaffold": "^11.2",
@@ -43,7 +48,8 @@
         "drupal/recipe_installer_kit": "^1-alpha6@alpha",
         "drupal/style_options_media": "^1.0",
         "drupal/webform": "@beta",
-        "drush/drush": "^13"
+        "drush/drush": "^13",
+        "oomphinc/composer-installers-extender": "^2.0"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -56,6 +62,7 @@
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
             "drupal/core-recipe-unpack": true,
+            "oomphinc/composer-installers-extender": true,
             "php-http/discovery": true
         },
         "sort-packages": true,
@@ -67,6 +74,7 @@
                 "web-root": "web/"
             }
         },
+        "installer-types": ["drupal-component"],
         "installer-paths": {
             "web/core": ["type:drupal-core"],
             "web/libraries/{$name}": ["type:drupal-library"],
@@ -77,7 +85,8 @@
             "web/modules/custom/{$name}": ["type:drupal-custom-module"],
             "web/profiles/custom/{$name}": ["type:drupal-custom-profile"],
             "./recipes/{$name}": ["type:drupal-recipe"],
-            "web/themes/custom/{$name}": ["type:drupal-custom-theme"]
+            "web/themes/custom/{$name}": ["type:drupal-custom-theme"],
+            "web/components/contrib/{$name}": ["type:drupal-component"]
         },
         "drupal-core-project-message": {
             "include-keys": ["homepage", "support"],

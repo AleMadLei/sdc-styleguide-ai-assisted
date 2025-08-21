@@ -22,6 +22,7 @@ recipes
 web/core
 web/libraries
 web/*/README.txt
+web/components/contrib
 web/themes/contrib
 web/modules/contrib
 web/profiles/contrib
