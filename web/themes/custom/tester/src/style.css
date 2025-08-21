@@ -2,3 +2,7 @@
 @source '../components/**/*.twig';
 @source '../templates/**/*.twig';
 @source '../../../../components/contrib/**/**/*.twig';
+
+iframe {
+  max-width: 100%;
+}

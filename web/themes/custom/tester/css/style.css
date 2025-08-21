@@ -395,6 +395,9 @@
     }
   }
 }
+iframe {
+  max-width: 100%;
+}
 @property --tw-border-style {
   syntax: "*";
   inherits: false;
