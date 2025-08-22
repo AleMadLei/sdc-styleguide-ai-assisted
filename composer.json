@@ -51,7 +51,7 @@
         "drupal/nomarkup": "^1.0",
         "drupal/project_browser": "@beta",
         "drupal/recipe_installer_kit": "^1-alpha6@alpha",
-        "drupal/sdc_styleguide": "^1.1",
+        "drupal/sdc_styleguide": "dev-1.2.x",
         "drupal/shareable_sdc": "^1.0",
         "drupal/style_options_media": "^1.0",
         "drupal/webform": "@beta",
@@ -61,7 +61,7 @@
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "beta",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "allow-plugins": {

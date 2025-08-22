@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9249800b7427808a7b1dbc3467d80bf4",
+    "content-hash": "5a4f6b0006591abd18df5242f3d4e0fb",
     "packages": [
         {
             "name": "alemadlei/details",
@@ -7031,29 +7031,26 @@
         },
         {
             "name": "drupal/sdc_styleguide",
-            "version": "1.1.0",
+            "version": "dev-1.2.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/sdc_styleguide.git",
-                "reference": "1.1.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/sdc_styleguide-1.1.0.zip",
-                "reference": "1.1.0",
-                "shasum": "ba47ea7fdd687adfb9270b1661d20478d8736c46"
+                "reference": "5b3226ea7aa3d99d636f81ea43c5052c24c8d9f9"
             },
             "require": {
                 "drupal/core": ">=10.3"
             },
             "type": "drupal-module",
             "extra": {
+                "branch-alias": {
+                    "dev-1.2.x": "1.2.x-dev"
+                },
                 "drupal": {
-                    "version": "1.1.0",
-                    "datestamp": "1729065572",
+                    "version": "1.2.0-alpha1+5-dev",
+                    "datestamp": "1748956671",
                     "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -14788,13 +14785,14 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "beta",
+    "minimum-stability": "dev",
     "stability-flags": {
         "alemadlei/details": 20,
         "alemadlei/sample-card": 20,
         "drupal/core": 5,
         "drupal/project_browser": 10,
         "drupal/recipe_installer_kit": 15,
+        "drupal/sdc_styleguide": 20,
         "drupal/webform": 10
     },
     "prefer-stable": true,
