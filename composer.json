@@ -17,9 +17,14 @@
         "alemadlei/sample-card": {
             "type": "vcs",
             "url": "https://github.com/AleMadLei/sample-card"
+        },
+        "alemadlei/details": {
+            "type": "vcs",
+            "url": "https://github.com/AleMadLei/details"
         }
     },
     "require": {
+        "alemadlei/details": "dev-main",
         "alemadlei/sample-card": "dev-main",
         "composer/installers": "^2.3",
         "drupal/core": "@rc",

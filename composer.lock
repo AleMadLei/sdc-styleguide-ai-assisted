@@ -4,8 +4,49 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "992d09894a646a4307e3d5172fa04a68",
+    "content-hash": "f67a3b6bac201be4f82ec742c01a47d6",
     "packages": [
+        {
+            "name": "alemadlei/details",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AleMadLei/details.git",
+                "reference": "ad9e1b67db8d408aeda4ae3f1f8fd9c962b0cf66"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AleMadLei/details/zipball/ad9e1b67db8d408aeda4ae3f1f8fd9c962b0cf66",
+                "reference": "ad9e1b67db8d408aeda4ae3f1f8fd9c962b0cf66",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "drupal-component",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Monet Fort",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Alejandro Madrigal",
+                    "homepage": "https://alemadlei.tech",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "A SDC Details component.",
+            "keywords": [
+                "drupal",
+                "sdc"
+            ],
+            "support": {
+                "source": "https://github.com/AleMadLei/details/tree/main",
+                "issues": "https://github.com/AleMadLei/details/issues"
+            },
+            "time": "2025-08-22T00:07:46+00:00"
+        },
         {
             "name": "alemadlei/sample-card",
             "version": "dev-main",
@@ -14661,6 +14702,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "alemadlei/details": 20,
         "alemadlei/sample-card": 20,
         "drupal/core": 5,
         "drupal/project_browser": 10,
