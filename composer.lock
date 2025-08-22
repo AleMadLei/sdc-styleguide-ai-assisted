@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f67a3b6bac201be4f82ec742c01a47d6",
+    "content-hash": "9249800b7427808a7b1dbc3467d80bf4",
     "packages": [
         {
             "name": "alemadlei/details",
@@ -7030,6 +7030,50 @@
             }
         },
         {
+            "name": "drupal/sdc_styleguide",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/sdc_styleguide.git",
+                "reference": "1.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/sdc_styleguide-1.1.0.zip",
+                "reference": "1.1.0",
+                "shasum": "ba47ea7fdd687adfb9270b1661d20478d8736c46"
+            },
+            "require": {
+                "drupal/core": ">=10.3"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.1.0",
+                    "datestamp": "1729065572",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "alemadlei",
+                    "homepage": "https://www.drupal.org/user/485004"
+                }
+            ],
+            "description": "Adds a styleguide that loads all available Single Directory Components and allows previewing them with test data.",
+            "homepage": "https://www.drupal.org/project/sdc_styleguide",
+            "support": {
+                "source": "https://git.drupalcode.org/project/sdc_styleguide"
+            }
+        },
+        {
             "name": "drupal/search_api",
             "version": "1.38.0",
             "source": {
@@ -7332,6 +7376,50 @@
             "support": {
                 "source": "http://drupalcode.org/seo_checklist",
                 "issues": "https://www.drupal.org/project/issues/seo_checklist"
+            }
+        },
+        {
+            "name": "drupal/shareable_sdc",
+            "version": "1.0.0-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/shareable_sdc.git",
+                "reference": "1.0.0-beta1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/shareable_sdc-1.0.0-beta1.zip",
+                "reference": "1.0.0-beta1",
+                "shasum": "8ac10f4829610ca797da2b27f46a74d78c5e9fa4"
+            },
+            "require": {
+                "drupal/core": "^11"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.0-beta1",
+                    "datestamp": "1755534641",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "alemadlei",
+                    "homepage": "https://www.drupal.org/user/485004"
+                }
+            ],
+            "description": "Extends SDC functionality to support components in a global /components directory with \"components:\" namespace.",
+            "homepage": "https://www.drupal.org/project/shareable_sdc",
+            "support": {
+                "source": "https://git.drupalcode.org/project/shareable_sdc"
             }
         },
         {
@@ -14700,7 +14788,7 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "beta",
     "stability-flags": {
         "alemadlei/details": 20,
         "alemadlei/sample-card": 20,
