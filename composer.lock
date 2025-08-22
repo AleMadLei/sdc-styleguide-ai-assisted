@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AleMadLei/details.git",
-                "reference": "ad9e1b67db8d408aeda4ae3f1f8fd9c962b0cf66"
+                "reference": "91124f905860e6ab50871e18756e8ccd4697aeea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AleMadLei/details/zipball/ad9e1b67db8d408aeda4ae3f1f8fd9c962b0cf66",
-                "reference": "ad9e1b67db8d408aeda4ae3f1f8fd9c962b0cf66",
+                "url": "https://api.github.com/repos/AleMadLei/details/zipball/91124f905860e6ab50871e18756e8ccd4697aeea",
+                "reference": "91124f905860e6ab50871e18756e8ccd4697aeea",
                 "shasum": ""
             },
             "default-branch": true,
@@ -45,7 +45,7 @@
                 "source": "https://github.com/AleMadLei/details/tree/main",
                 "issues": "https://github.com/AleMadLei/details/issues"
             },
-            "time": "2025-08-22T00:07:46+00:00"
+            "time": "2025-08-22T18:48:19+00:00"
         },
         {
             "name": "alemadlei/sample-card",
